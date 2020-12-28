@@ -18,6 +18,7 @@
 #include <cuda_runtime_api.h>
 #include <stdio.h>
 #include <iostream>
+#include <string>
 #include "gpu_hash_table.cuh"
 #include "slab_alloc.cuh"
 #include "slab_hash.cuh"

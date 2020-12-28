@@ -16,11 +16,14 @@
 
 #include <stdio.h>
 #include <time.h>
+#ifndef _WIN32
 #include <unistd.h>
+#endif
 #include <algorithm>
 #include <cstdlib>
 #include <iostream>
 #include <random>
+#include <string>
 #include <vector>
 #include "gpu_hash_table.cuh"
 #include "slab_hash.cuh"
